@@ -3,7 +3,7 @@
   
   <head>
     <title>
-     FCC Web Design Project - Personal Portfolio
+      Gcottin - Portfolio
     </title>
     <link rel="stylesheet" type="text/css" href="style.css">
     
@@ -13,32 +13,30 @@
     
    
     
-   <nav id="navbar">
-     
-    <div class="light">
-    </div>
-     <div id="light2" class="light">
-    </div>
-     <div id="light3" class="light">
-    </div>
-     <div id="light4" class="light">
-    </div>
-     <div id="light5" class="light">
-    </div>
-     
-    <div class="city">
-    </div>
-      
-     <div id="city2"class="city">
-    </div>
-     <div id="city3"class="city">
-    </div>
-     
-     <ul>
-       <li><a href="#about"> About</a></li>
-       <li><a href="#projects"> Projects</a></li>
-     <li><a href="#Profile-link"> Contact</a></li>
-     </ul>
+    <nav id="navbar">
+      <div id="css-logo">
+        <div class="light">
+        </div>
+        <div id="light2" class="light">
+        </div>
+        <div id="light3" class="light">
+        </div>
+        <div id="light4" class="light">
+        </div>
+        <div id="light5" class="light">
+        </div>
+        <div class="city">
+        </div>
+        <div id="city2"class="city">
+        </div>
+        <div id="city3"class="city">
+        </div>
+      </div>
+      <ul>
+        <li><a href="#about"> About</a></li>
+        <li><a href="#projects"> Projects</a></li>
+        <li><a href="#Profile-link"> Contact</a></li>
+      </ul>
    </nav>
     
   </header>
@@ -46,42 +44,81 @@
   
   <body>
     <div id="welcome-section">
-    <h1 class=title> My name is Jrej,
-    </h1>
-    <h2 class=title>This is my portfolio.
-    </h2>
-   </div>
-    
+      <h1 class=title> My name is Gregoire,
+      </h1>
+      <h2 class=title>I am a Web Developer.
+      </h2>
+    </div>
+    <div id="about">
+      <h1>
+        Who Am I?
+      </h1>
+      <p class="punchline">
+        From crafting to storytelling, I’ve always been active making my thoughts become reality.
+      </p>
+      <p>
+        It started very young, building machines out of cardboard, it continued through teenage years making silly games on my first computer or making movies with friends. 
+      </p>
+      <p>
+        I always kept this unconditional love for creation. In 2012, I undertook the ambitious project of self-publishing my own full-color graphic novel in my spare time. After 7 years of hard work, finally concluding the story arch and building an audience in the process felt like my biggest achievement in life. 
+      </p>
+      <p>
+        I learned valuable lessons about time management, entrepreneurship, online marketing and community building.
+      </p>
+      <h1>
+        Why Coding?
+      </h1>
+      <p>
+        Coding has always been this amazing thing to me. Like having the power to create anything from words alone. I decided to make more impact to the world around me, helping others through technology. This vision propelled me on a journey to learn the fantastic power of code.
+      </p>
+    </div>
     <div id="projects">
-      <section class="project-tile">
-        <h1>
-          Below my most recent projects:
-        </h1>
-        
-        <a href="https://codepen.io/Jrej/pen/LMOXjd"> FCC Web Design Project - Technical Documentation Page </a>
-      </section>
-      
-      <section class="project-tile">
-        
-        <a href="https://codepen.io/Jrej/pen/zyPwaq"> FCC Web Design Project - Landing Page </a>
-      </section>
-      
-      <section class="project-tile">
-        <a href="https://codepen.io/Jrej/pen/YdZvYm"> FCC Web Design Project - Survey Page </a>
-      </section>
-      
-      <section class="project-tile">
-        <a href="https://codepen.io/Jrej/pen/LMGmKx"> FCC Web Design Project - Tribute Page </a>
-      </section>
+      <h1>
+        Below my most recent projects:
+      </h1>
     </div>
-    
-    </br>
-  <hr>
-  </br>
-    <div >
-      <a href="https://www.freecodecamp.org/jrej" target="_blank" id="profile-link"> FCC Profile </a>
+      <div class="container">
+        <section class="project-tile">
+          <div>
+            <img src="https://cdn.steemitimages.com/DQmWY3VGSLNpLBNTfBb1f2TbVjWEhEANvaX1xrs8LWsfKzy/Untitled.png" alt="token issue thumbnail">
+          </div>        
+          <a href="http://bit.ly/token_list"> Token Page </a>
+          <p>
+            Updatable list of tokens built in React.js. The application is using the Ant Design UI library and React router for navigation. Token items from the table can be added or deleted. The data is saved in the local storage.
+          </p>
+        </section>
+
+        <section class="project-tile">
+          <div>
+            <img src="https://cdn.steemitimages.com/DQmcdWozkimD7FjEU4B7pBuVRe2pcSRQjiBwNrr6q4jEdb3/Untitled3.png" alt="memory game thumbnail">
+          </div>  
+          </br>      
+          <a href="http://bit.ly/react_mmg"> Memory Game </a>
+          <p>
+            The classic pair matching game with a twist: an odd number of cards.
+            Created in React.js, the app relies on states, components and Javascript conditions to transcript the rules.
+          </p>
+        </section>
+        
+        <section class="project-tile">
+          <div>
+            <img src="https://cdn.steemitimages.com/DQmSX2QZnNawCaGbBs56ghB6VTMEguDqmKMKwUqoJ9GT8sM/Untitled.png" alt="landing page thumbnail">
+          </div>
+          <a href="https://codepen.io/Jrej/pen/zyPwaq"> Landing Page </a>
+          <p>
+            Responsive web page written in HTML & CSS. It includes flex-box and media queries and a logo in pure CSS.
+          </p>
+        </section>
+      </div>
     </div>
-    
+      
+      </br>
+      <hr>
+      </br>
+      <div >
+        <a href="https://www.freecodecamp.org/jrej" target="_blank" id="profile-link"> FCC Profile </a>
+      </div>
+    </div>
   </body>
   
 </html>

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Ovo&display=swap');
+
 #welcome-section{
   background:lightblue;
   height: 100vh;
- }
+}
 
 .light{
   position:absolute;
@@ -13,23 +15,22 @@
   border-color: white;
   border-style: dotted;
   z-index: 1;
-  }
-
 }
-  #light2{
-    left:185px;
-    top:17px;
-  }
-  #light3{
-    height:20px;
-    width:5px;
-    left:233px;
-    top:22px;
-  }
-  #light4{
-    left:275px;
-    top:20px;
-  }
+
+#light2{
+  left:185px;
+  top:17px;
+}
+#light3{
+  height:20px;
+  width:5px;
+  left:233px;
+  top:22px;
+}
+#light4{
+  left:275px;
+  top:20px;
+}
 #light5{
    left:155px;
     top:27px;
@@ -70,7 +71,6 @@
   left:50px;
 }
 
-
 .title{
   position:relative;
   text-align: center;
@@ -80,24 +80,41 @@
 li>a{
   color:black;
   text-decoration: none;
-  font-weight: bold;
-  
-  
+  font-weight: bold; 
 }
-
-h1{
-  text-shadow: 3px 5px 12px     white;
-  }
 
 .project-tile>h1{
   margin-top:50px;
   margin-bottom:100px;
 }
 
+h1{
+  font-family: 'Ovo', serif;
+  text-shadow: 3px 5px 12px white;
+  }
+
 h2{
+  font-family: 'Muli', sans-serif;
   color:white;
   text-shadow: 2px 1px 2px black;
   }
+
+a, p{
+  font-family: 'Muli', sans-serif;
+}
+
+img{
+  position: relative;
+  width: 100%;
+}
+
+.punchline {
+  font-weight: bold;
+}
+
+#about, #projects{
+  padding: 2.5em;
+}
 
 li{
   display:inline;
@@ -105,8 +122,8 @@ li{
   color:black;
   font-size: 23px;
   margin-right:1%;
-  
-          }
+}
+
 #navbar{
   position:fixed;
   width: 100%;
@@ -116,16 +133,35 @@ li{
   text-align: right;
   z-index:1;
  }
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .project-tile{
   padding:50px;
   text-align:center;
+  border-style:dashed;
+  border-color: lightblue;
+  border-radius: 5%;
+  margin: 1em 1em;
+  width: 25%;
 }
+.project-tile:hover{
+  box-shadow: 3px 5px 30px lightblue;
+  transition: all .2s ease-in-out;
+  transform: scale(1.01);
+}
+
 #profile-link{
   margin:50%;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 760px){
   h1{
-    font-size: 30px
+    font-size: 30px;
+  }
+  .project-tile{
+    width: 100%;
   }
 }
