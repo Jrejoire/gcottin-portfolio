@@ -7,4 +7,4 @@ const scene2 = new ScrollMagic.Scene({
   triggerElement: "#about"
 })
   .setTween(tl)
-		.addTo(controller);
+    .addTo(controller);
