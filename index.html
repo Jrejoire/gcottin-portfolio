@@ -1,129 +1,183 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <title>
-      Gcottin - Portfolio
-    </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-   </head>
-  
+
+<head>
+  <title>
+    Gcottin - Portfolio
+  </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
   <header>
-    
-   
-    
     <nav id="navbar">
-      <ul class="nav-container">
-        <li>
-          <div id="css-logo">
-              <div id="city" class="city">
-                  <div class="light"></div>
-              </div>
-              <div id="city2" class="city">
-                <div id="light2" class="light"></div>
-                <div id="light3" class="light"></div>
-              </div>
-              <div id="city3" class="city">
-                <div id="light4" class="light"></div>
-                <div id="light5" class="light"></div>
-              </div>
+        <!-- logo in css -->
+        <div id="css-logo">
+          <div id="city" class="city">
+            <div id="light" class="light">
+              <div class="beam"></div>
+              <div class="beam beam2"></div>
+              <div class="beam beam3"></div>
+            </div>
           </div>
-        </li>
+          <div id="city2" class="city">
+            <div id="light2" class="light">
+              <div class="beam"></div>
+              <div class="beam beam2"></div>
+              <div class="beam beam3"></div>
+            </div>
+            <div id="light3" class="light">
+              <div class="beam"></div>
+              <div class="beam beam2"></div>
+              <div class="beam beam3"></div>
+            </div>
+            <div id="light4" class="light">
+              <div class="beam"></div>
+              <div class="beam beam2"></div>
+              <div class="beam beam3"></div>
+            </div>
+          </div>
+          <div id="city3" class="city">
+            <div id="light5" class="light">
+              <div class="beam"></div>
+              <div class="beam beam2"></div>
+              <div class="beam beam3"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Navbar links -->
+      <ul class="nav-container">
         <li><a href="#about"> About</a></li>
         <li><a href="#projects"> Projects</a></li>
         <li><a href="#Profile-link"> Contact</a></li>
       </ul>
-   </nav>
-    
+    </nav>
   </header>
-  
-  
-  <body>
-    <div id="welcome-section">
-      <h1 class=title> My name is Gregoire,
-      </h1>
-      <h2 class=title>I am a Web Developer.
-      </h2>
-    </div>
+
+  <div id="welcome-section">
+    <h1 class=title> My name is Gregoire,
+    </h1>
+    <h2 class=title>I am a Web Developer.
+    </h2>
+  </div>
+
+  <div id="main">
+
     <div id="about">
+      <div id="who">
+        <h1>
+          Who Am I?
+        </h1>
+        <p class="punchline">
+          From crafting to storytelling, I’ve always been active making my thoughts become reality.
+        </p>
+        <p>
+          It started very young, building machines out of cardboard, it continued through teenage years making silly
+          games
+          on my first computer or making movies with friends.
+        </p>
+        <p>
+          I always kept this unconditional love for creation. In 2012, I undertook the ambitious project of
+          self-publishing
+          my own full-color graphic novel in my spare time. After 7 years of hard work, finally concluding the story
+          arch
+          and building an audience in the process felt like my biggest achievement in life.
+        </p>
+        <p>
+          I learned valuable lessons about time management, entrepreneurship, online marketing and community building.
+        </p>
+      </div>
+      <div id="why">
+        <h1>
+          Why Coding?
+        </h1>
+        <p>
+          Coding has always been this amazing thing to me. Like having the power to create anything from words alone. I
+          decided to make more impact to the world around me, helping others through technology. This vision propelled
+          me
+          on
+          a journey to learn the fantastic power of code.
+        </p>
+      </div>
+    </div>
+    <div id='skills'>
       <h1>
-        Who Am I?
+        My Skills
       </h1>
-      <p class="punchline">
-        From crafting to storytelling, I’ve always been active making my thoughts become reality.
-      </p>
-      <p>
-        It started very young, building machines out of cardboard, it continued through teenage years making silly games on my first computer or making movies with friends. 
-      </p>
-      <p>
-        I always kept this unconditional love for creation. In 2012, I undertook the ambitious project of self-publishing my own full-color graphic novel in my spare time. After 7 years of hard work, finally concluding the story arch and building an audience in the process felt like my biggest achievement in life. 
-      </p>
-      <p>
-        I learned valuable lessons about time management, entrepreneurship, online marketing and community building.
-      </p>
-      <h1>
-        Why Coding?
-      </h1>
-      <p>
-        Coding has always been this amazing thing to me. Like having the power to create anything from words alone. I decided to make more impact to the world around me, helping others through technology. This vision propelled me on a journey to learn the fantastic power of code.
-      </p>
+      <ul id="skill-container">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>NodeJS</li>
     </div>
     <div id="projects">
       <h1>
         Below my most recent projects:
       </h1>
     </div>
-      <div class="container">
-        <section class="project-tile">
-          <div>
-            <img src="https://cdn.steemitimages.com/DQmWY3VGSLNpLBNTfBb1f2TbVjWEhEANvaX1xrs8LWsfKzy/Untitled.png" alt="token issue thumbnail">
-          </div>        
-          <a href="http://bit.ly/token_list"> Token Page </a>
-          <p>
-            Updatable list of tokens built in React.js. The application is using the Ant Design UI library and React router for navigation. Token items from the table can be added or deleted. The data is saved in the local storage.
-          </p>
-        </section>
+    <div class="container">
+      <section class="project-tile">
+        <div>
+          <img src="https://cdn.steemitimages.com/DQmWY3VGSLNpLBNTfBb1f2TbVjWEhEANvaX1xrs8LWsfKzy/Untitled.png"
+            alt="token issue thumbnail">
+        </div>
+        <a href="http://bit.ly/token_list"> Token Page </a>
+        <p>
+          Updatable list of tokens built in React.js. The application is using the Ant Design UI library and React
+          router
+          for navigation. Token items from the table can be added or deleted. The data is saved in the local storage.
+        </p>
+      </section>
 
-        <section class="project-tile">
-          <div>
-            <img src="https://cdn.steemitimages.com/DQmcdWozkimD7FjEU4B7pBuVRe2pcSRQjiBwNrr6q4jEdb3/Untitled3.png" alt="memory game thumbnail">
-          </div>  
-          </br>      
-          <a href="http://bit.ly/react_mmg"> Memory Game </a>
-          <p>
-            The classic pair matching game with a twist: an odd number of cards.
-            Created in React.js, the app relies on states, components and Javascript conditions to transcript the rules.
-          </p>
-        </section>
-        
-        <section class="project-tile">
-          <div>
-            <img src="https://cdn.steemitimages.com/DQmSX2QZnNawCaGbBs56ghB6VTMEguDqmKMKwUqoJ9GT8sM/Untitled.png" alt="landing page thumbnail">
-          </div>
-          <a href="https://codepen.io/Jrej/pen/zyPwaq"> Landing Page </a>
-          <p>
-            Responsive web page written in HTML & CSS. It includes flex-box and media queries and a logo in pure CSS.
-          </p>
-        </section>
-      </div>
-    </div>
-      
-      </br>
-      <hr>
-      </br>
-      <div >
-        <a href="https://www.freecodecamp.org/jrej" target="_blank" id="profile-link"> FCC Profile </a>
-      </div>
+      <section class="project-tile">
+        <div>
+          <img src="https://cdn.steemitimages.com/DQmcdWozkimD7FjEU4B7pBuVRe2pcSRQjiBwNrr6q4jEdb3/Untitled3.png"
+            alt="memory game thumbnail">
+        </div>
+        </br>
+        <a href="http://bit.ly/react_mmg"> Memory Game </a>
+        <p>
+          The classic pair matching game with a twist: an odd number of cards.
+          Created in React.js, the app relies on states, components and Javascript conditions to transcript the rules.
+        </p>
+      </section>
+
+      <section class="project-tile">
+        <div>
+          <img src="https://cdn.steemitimages.com/DQmSX2QZnNawCaGbBs56ghB6VTMEguDqmKMKwUqoJ9GT8sM/Untitled.png"
+            alt="landing page thumbnail">
+        </div>
+        <a href="https://codepen.io/Jrej/pen/zyPwaq"> Landing Page </a>
+        <p>
+          Responsive web page written in HTML & CSS. It includes flex-box and media queries and a logo in pure CSS.
+        </p>
+      </section>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+    </br>
+    <hr>
+    </br>
+    <div>
+      <a href="https://www.freecodecamp.org/jrej" target="_blank" id="profile-link"> FCC Profile </a>
+    </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+    integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+    integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
 </html>
