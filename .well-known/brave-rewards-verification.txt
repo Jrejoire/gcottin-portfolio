@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gcottin.design
+Token: 31b0b4b133a9018d9230c683dd0fdcf53a9168d8ccf7a1dc5e604bca8bb69ec9
