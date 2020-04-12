@@ -147,6 +147,7 @@ li{
   justify-content: center;
 }
 .project-tile{
+  cursor: pointer;
   padding:50px;
   text-align:center;
   border-style:dashed;
@@ -160,10 +161,29 @@ li{
   transition: all .2s ease-in-out;
   transform: scale(1.01);
 }
+.project-tile > a {
+  color: black;
+  text-decoration: none;
+}
+
+.project-title {
+  font-weight: bold;
+}
 
 #profile-link{
-  margin:50%;
+  height: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  white-space: nowrap;
 }
+
+#profile-link > a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 760px){
   h1{
